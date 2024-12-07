@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Device Catalog',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: DeviceTable(),
+      home: const DeviceTable(),
     );
   }
 }
